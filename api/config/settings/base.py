@@ -208,7 +208,7 @@ CORS_URLS_REGEX = r"^/api/.*$"
 # CELERY_TASK_SERIALIZER = "json"
 # CELERY_RESULT_SERIALIZER = "json"
 
-
+# TODO: configure logging to send errors and critical level logs to slack or discord
 LOGGING = {
     "version": 1,
     "disable_existing_loggers": False,
